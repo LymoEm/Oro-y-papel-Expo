@@ -368,6 +368,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6099223232015835872, guid: d7493b50af5608d4ab96982eea223567, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d72ce42e781a0c147a2fcf713b5640f3, type: 2}
     - target: {fileID: -4586119742299170577, guid: d7493b50af5608d4ab96982eea223567, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -380,10 +384,18 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: c2ee832ab1ce1644f88c4013337dffa8, type: 2}
+    - target: {fileID: -636776870671777129, guid: d7493b50af5608d4ab96982eea223567, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d72ce42e781a0c147a2fcf713b5640f3, type: 2}
     - target: {fileID: -478872584564092602, guid: d7493b50af5608d4ab96982eea223567, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: c2ee832ab1ce1644f88c4013337dffa8, type: 2}
+    - target: {fileID: -392250547588234641, guid: d7493b50af5608d4ab96982eea223567, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d72ce42e781a0c147a2fcf713b5640f3, type: 2}
     - target: {fileID: 919132149155446097, guid: d7493b50af5608d4ab96982eea223567, type: 3}
       propertyPath: m_Name
       value: espacio museo
