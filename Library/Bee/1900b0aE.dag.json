@@ -461,7 +461,27 @@
         451,
         452,
         453,
-        454
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474
       ],
       "DebugActionIndex": 0
     },
@@ -1552,10 +1572,6 @@
         364,
         365,
         378,
-        381,
-        382,
-        383,
-        384,
         385,
         386,
         387,
@@ -1568,8 +1584,6 @@
         394,
         395,
         396,
-        397,
-        398,
         399,
         400,
         401,
@@ -1623,7 +1637,27 @@
         449,
         450,
         451,
-        452
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472
       ],
       "DebugActionIndex": 6
     },
@@ -52170,6 +52204,1537 @@
       "DebugActionIndex": 380
     },
     {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
+      "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 2486801,
+      "PayloadLength": 70,
+      "PayloadDebugContentSnippet": "C:\\Users\\Usuario\\Documents\\Emi",
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 381
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
+      "DisplayName": "Writing Assembly-CSharp.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 2486957,
+      "PayloadLength": 44299,
+      "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 382
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
+      "DisplayName": "Writing Assembly-CSharp.rsp2",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 2531343,
+      "PayloadLength": 0,
+      "PayloadDebugContentSnippet": "",
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 383
+    },
+    {
+      "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)",
+      "DisplayName": "Compiling C# (Assembly-CSharp)",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2\"",
+      "Inputs": [
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.AssetComplianceModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.ClothModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.CoreBusinessMetricsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.EmbreeModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.GIModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.GraphicsStateCollectionSerializerModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.GridAndSnapModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.GridModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.HierarchyModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.MediaModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.MultiplayerModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.Physics2DModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.PhysicsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.PlayModeModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.PropertiesModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.QuickInstallModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.SafeModeModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderBuildSettingsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderCompilationModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderFoundryModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.SketchUpModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteMaskModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteShapeModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.SubstanceModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.TerrainModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.TextRenderingModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.TilemapModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.TreeModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.UIAutomationModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.UIToolkitAuthoringModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.UmbraModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.VFXModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.VectorGraphicsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.VideoModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.XRModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEditor.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.AdaptivePerformanceModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.HierarchyCoreModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.IdentifiersModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.InputForUIModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.InsightsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsBackendPhysXModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.RenderAs2DModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.ShaderRuntimeModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.ShaderVariantAnalyticsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConsentModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.VectorGraphicsModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed/UnityEngine/UnityEngine.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll",
+        "Library/PackageCache/com.unity.ext.nunit@d8c07649098d/net40/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.testtools.codecoverage@19a841221620/lib/ReportGenerator/ReportGeneratorMerged.dll",
+        "Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEngineBridge.004.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.Analytics.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
+        "Assets/Scrips/CambiarEscena.cs",
+        "Assets/Scrips/EfectoBrillo.cs",
+        "Assets/Scrips/InteraccionJugador.cs",
+        "Assets/Scrips/MovimientoJugador.cs",
+        "Assets/Scrips/ObjetoInteractivo.cs",
+        "Assets/Scrips/PosicionarJugador.cs",
+        "Assets/Scrips/VideoACambioEscena.cs",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
+      ],
+      "OutputFlags": [
+        0,
+        0,
+        0
+      ],
+      "ToBuildDependencies": [
+        144,
+        168,
+        176,
+        183,
+        189,
+        195,
+        201,
+        207,
+        213,
+        219,
+        225,
+        231,
+        237,
+        243,
+        263,
+        275,
+        288,
+        297,
+        304,
+        311,
+        317,
+        324,
+        331,
+        337,
+        350,
+        357,
+        363,
+        371,
+        377,
+        381,
+        382,
+        383,
+        398
+      ],
+      "ToUseDependencies": [
+        381,
+        383
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "DOTNET_MULTILEVEL_LOOKUP",
+          "Value": "0"
+        }
+      ],
+      "DebugActionIndex": 384
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.EditorCoroutines.Editor.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        176
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 385
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.InputSystem.ForUI.ref.dll_0478B67D1094CE70.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.InputSystem.ForUI.ref.dll_0478B67D1094CE70.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.InputSystem.ForUI.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.InputSystem.ForUI.ref.dll_0478B67D1094CE70.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        263
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 386
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Center.Editor.ref.dll_EB1F4B6E56116D4A.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Multiplayer.Center.Editor.ref.dll_EB1F4B6E56116D4A.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.Multiplayer.Center.Editor.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Center.Editor.ref.dll_EB1F4B6E56116D4A.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        275
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 387
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.Performance.Profile-Analyzer.Editor.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        201
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 388
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.Rider.Editor.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        213
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 389
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.ref.dll_F09CF4826CE11CD9.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.TestTools.CodeCoverage.Editor.ref.dll_F09CF4826CE11CD9.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.TestTools.CodeCoverage.Editor.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.ref.dll_F09CF4826CE11CD9.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        288
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 390
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.TextMeshPro.Editor.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        317
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 391
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.Timeline.Editor.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        304
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 392
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.SettingsProvider.Editor.ref.dll_A1A44354E0B583A8.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.VisualScripting.SettingsProvider.Editor.ref.dll_A1A44354E0B583A8.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.VisualScripting.SettingsProvider.Editor.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.SettingsProvider.Editor.ref.dll_A1A44354E0B583A8.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        363
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 393
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_9669F6EBFF6DFFB7.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.VisualScripting.Shared.Editor.ref.dll_9669F6EBFF6DFFB7.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.VisualScripting.Shared.Editor.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_9669F6EBFF6DFFB7.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        377
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 394
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.VisualStudio.Editor.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        243
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 395
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UI.Analytics.ref.dll_3B64A5A3A726AD5D.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.UI.Analytics.ref.dll_3B64A5A3A726AD5D.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\UnityEditor.UI.Analytics.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.Analytics.ref.dll",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.Analytics.ref.dll_3B64A5A3A726AD5D.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        337
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 396
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
+      "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 2531439,
+      "PayloadLength": 14275,
+      "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 397
+    },
+    {
+      "Annotation": "MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp\"",
+      "Inputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.InputSystem.ForUI.ref.dll_0478B67D1094CE70.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.InputSystem.ref.dll_FD2EC87C14EBE081.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.InternalAPIEngineBridge.004.ref.dll_9F91F1CFF2D20E26.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Center.Common.ref.dll_EE36537354EA42C8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Center.Editor.ref.dll_EB1F4B6E56116D4A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.PlasticSCM.Editor.ref.dll_257AEB342BE77856.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Settings.Editor.ref.dll_7F5B154C05A780B0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_D3B9364D6FB03093.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_E668CD773429A040.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.ref.dll_F09CF4826CE11CD9.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_84A4293DBDD182DB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_621CDDF9C514DF8F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.Editor.ref.dll_EDC8690F57C5BDFD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_D75DF4EA1AFE54F4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.Editor.ref.dll_6AF951BE66A4493E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_1E6ED5409D07C9A3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.SettingsProvider.Editor.ref.dll_A1A44354E0B583A8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_9669F6EBFF6DFFB7.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.Editor.ref.dll_E03858E727F23F6F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_D91762B7076BE462.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.Analytics.ref.dll_3B64A5A3A726AD5D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_08FEAA520A2EFD60.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.AccessibilityModule.dll_856A040915ABCA83.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.AdaptivePerformanceModule.dll_D883DC6AB5FA486F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.AssetComplianceModule.dll_42A8805AD4636090.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.BuildProfileModule.dll_2C0922865566785A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.ClothModule.dll_50B5254587944DFF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreBusinessMetricsModule.dll_586ED5E4DC417769.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_73FCD870AEABCFBE.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_09CD706C59A77C63.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_61E59A0720595DF1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_BB6619DB8F417BD3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.EmbreeModule.dll_C54AD41EB23EBBC7.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.GIModule.dll_3503229A99F1C6A1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.GraphViewModule.dll_E04B6B692F84ADA8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.GraphicsStateCollectionSerializerModule.dll_6EEAD95E9B8D186B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.GridAndSnapModule.dll_6B9E8088A3BE1AE0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.GridModule.dll_516DF45EC70065B5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.HierarchyModule.dll_CDBF7244ED63EC6A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.MediaModule.dll_B58CE1DC2BC3F7A9.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.MultiplayerModule.dll_AAC09B0382248C2F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Physics2DModule.dll_4590E699C55EC7FE.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.PhysicsModule.dll_3208130AC9E2DB4C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.PlayModeModule.dll_11B1C50DBC0AB326.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.PresetsUIModule.dll_9BB1A44B31DD05AD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.PropertiesModule.dll_8E66A3CD558E3CF2.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.QuickInstallModule.dll_0AE870C596ECE68D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.QuickSearchModule.dll_ECF51B1479305A4A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SafeModeModule.dll_CBBDD3541D41A3BF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SceneTemplateModule.dll_DF058A998E2E260B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SceneViewModule.dll_1EFB4E7124A77AB6.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.ShaderBuildSettingsModule.dll_E0AA231388F979B1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.ShaderCompilationModule.dll_9BDB44F2CF1945A3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.ShaderFoundryModule.dll_1DE55ADCB0DDA299.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SketchUpModule.dll_B3D2B8A468733FD6.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SpriteMaskModule.dll_4A57D71F04126E30.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SpriteShapeModule.dll_4479ABD17EFF36C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SubstanceModule.dll_8A2AF842BF3C85B5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TerrainModule.dll_4C4E8E799FA1243A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreFontEngineModule.dll_F52F151D7C68137C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreTextEngineModule.dll_3D174B8F0BEBCC9A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TextRenderingModule.dll_28A8ACD4E08AD764.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TilemapModule.dll_EB4AF5FAB75E0543.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TreeModule.dll_D1A8CD7F367164FD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIAutomationModule.dll_DCAA1176F1DA411A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIBuilderModule.dll_34D41885A23D26DC.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsModule.dll_B9439EE8D586923A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsSamplesModule.dll_900CE27AEC1550D3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIToolkitAuthoringModule.dll_2885A9AA9AEE973C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UmbraModule.dll_64A174633A9E1A8E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UnityConnectModule.dll_27432FFC7A4A5D74.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.VFXModule.dll_F46A798EF360E28D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.VectorGraphicsModule.dll_EFC8A1ED5162A7ED.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.VideoModule.dll_0ED64CB570098AC0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.XRModule.dll_1DCB6144857EB709.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.dll_3671534C34BA8D77.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_DB356B1C69C01252.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_94A8301FC6DD711B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_11AAF6308EA44DA8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AdaptivePerformanceModule.dll_99137120F13F9B74.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_378C87BC1EA60110.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_AED0E79209E1824E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_30DE4E05DB970F3C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_AFF984AEDEF49FC0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_16E1E1A9B9117EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_A6DFA5122BD2303A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_0F7A32DDC96289E7.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_C9F4A746AA19B729.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_971DABC356B13AE9.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_C09384076D373A21.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_CC25F73E136D4C67.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_C6D495D4A10C7B46.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_7371B42A056EFA6C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_61D9D1D6E4E6F201.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GraphicsStateCollectionSerializerModule.dll_77DEA64E688C61D0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_748EC7B16F05D0E0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.HierarchyCoreModule.dll_88C5930AFD51A69E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_3019A597E5149DD0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_E8592415A52633A1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.IdentifiersModule.dll_0967D5FB9E0FDD54.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_7B6C308E4B8741DB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputForUIModule.dll_648C2BF045078EBD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_C22369247388C52D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_166F4C5F552CC464.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InsightsModule.dll_609B5E652B89CAC5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_71C27F6C8DDFAE32.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_E52C6F64C34E2333.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.MarshallingModule.dll_D946EC9ABFBF3C8E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.MultiplayerModule.dll_B0866A92945E9CB4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_13A5CD53DB48C5AF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_2BF3664E57FBF8A8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_FB76D782AADE79E3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsBackendPhysXModule.dll_732758ADD3FBDE33.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_2482CBB52EF1C291.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_8F15111557D2563D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.RenderAs2DModule.dll_D04CD39B372CA074.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_1B663D6A74D030AC.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_8BAA2CF1A24BDA94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ShaderRuntimeModule.dll_A1829F5EDEA7B81D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ShaderVariantAnalyticsModule.dll_BC23880BA2FA7C90.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_FF7D6F63C2B53D2B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_4B0644670656877B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_4A3F7B6091394746.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_6365D4E25969398C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_4010E92BA4BC379A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_B5B3AAC8D49E6F8E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_7FAD83738CA38725.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_3EC9472404B00B7F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_14207626F48BC03C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_738E90708F65D247.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_BB76C6E21EE98B65.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_B4E99EFC59835A89.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_DDC5AEA51C6CEC88.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_B9F20C30D7CAAB85.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_D6A90949C60717FE.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_2ACE30C76C1B4B33.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_C732239271E49706.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_33453E1D877017AB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_14A2B40B74D25E1F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConsentModule.dll_E6484B3781DCF46F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_E1ED88C379F5743B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_8F2C8F8F84C182BC.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_A3EFBA2CDE66C340.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_8D0B3838567BDC5A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_FB696A5AF72E4115.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_86390C3E0EA947D1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_008C1BE26310F092.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_297B2FCF67C19D76.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VectorGraphicsModule.dll_AAED03886D4F3BF8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_3E978F541B364AE1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_D5030919A186BB65.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_CE1204E7D0BC8C47.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_0D6C86EBE7E7B952.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_5C39F2D3F0FBEAD4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.dll_69159A24932E1A5C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_EDA8CA639BA362F1.mvfrm",
+        "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        152,
+        170,
+        177,
+        250,
+        257,
+        276,
+        289,
+        290,
+        291,
+        298,
+        305,
+        318,
+        325,
+        344,
+        351,
+        364,
+        365,
+        378,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 398
+    },
+    {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
       "DisplayName": "Copying UnityEngine.TestRunner.dll",
       "ActionType": "CopyFiles",
@@ -52188,7 +53753,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 381
+      "DebugActionIndex": 399
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb",
@@ -52209,7 +53774,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 382
+      "DebugActionIndex": 400
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll",
@@ -52230,7 +53795,7 @@
       "ToBuildDependencies": [
         158
       ],
-      "DebugActionIndex": 383
+      "DebugActionIndex": 401
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb",
@@ -52251,7 +53816,7 @@
       "ToBuildDependencies": [
         158
       ],
-      "DebugActionIndex": 384
+      "DebugActionIndex": 402
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll",
@@ -52272,7 +53837,7 @@
       "ToBuildDependencies": [
         213
       ],
-      "DebugActionIndex": 385
+      "DebugActionIndex": 403
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb",
@@ -52293,7 +53858,7 @@
       "ToBuildDependencies": [
         213
       ],
-      "DebugActionIndex": 386
+      "DebugActionIndex": 404
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll",
@@ -52314,7 +53879,7 @@
       "ToBuildDependencies": [
         243
       ],
-      "DebugActionIndex": 387
+      "DebugActionIndex": 405
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb",
@@ -52335,7 +53900,7 @@
       "ToBuildDependencies": [
         243
       ],
-      "DebugActionIndex": 388
+      "DebugActionIndex": 406
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll",
@@ -52356,7 +53921,7 @@
       "ToBuildDependencies": [
         144
       ],
-      "DebugActionIndex": 389
+      "DebugActionIndex": 407
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb",
@@ -52377,7 +53942,7 @@
       "ToBuildDependencies": [
         144
       ],
-      "DebugActionIndex": 390
+      "DebugActionIndex": 408
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll",
@@ -52398,7 +53963,7 @@
       "ToBuildDependencies": [
         168
       ],
-      "DebugActionIndex": 391
+      "DebugActionIndex": 409
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb",
@@ -52419,7 +53984,7 @@
       "ToBuildDependencies": [
         168
       ],
-      "DebugActionIndex": 392
+      "DebugActionIndex": 410
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll",
@@ -52440,7 +54005,7 @@
       "ToBuildDependencies": [
         176
       ],
-      "DebugActionIndex": 393
+      "DebugActionIndex": 411
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.pdb",
@@ -52461,7 +54026,7 @@
       "ToBuildDependencies": [
         176
       ],
-      "DebugActionIndex": 394
+      "DebugActionIndex": 412
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.InputSystem.dll",
@@ -52482,7 +54047,7 @@
       "ToBuildDependencies": [
         183
       ],
-      "DebugActionIndex": 395
+      "DebugActionIndex": 413
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.InputSystem.pdb",
@@ -52503,7 +54068,7 @@
       "ToBuildDependencies": [
         183
       ],
-      "DebugActionIndex": 396
+      "DebugActionIndex": 414
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.dll",
@@ -52524,7 +54089,7 @@
       "ToBuildDependencies": [
         189
       ],
-      "DebugActionIndex": 397
+      "DebugActionIndex": 415
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.pdb",
@@ -52545,7 +54110,7 @@
       "ToBuildDependencies": [
         189
       ],
-      "DebugActionIndex": 398
+      "DebugActionIndex": 416
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll",
@@ -52566,7 +54131,7 @@
       "ToBuildDependencies": [
         195
       ],
-      "DebugActionIndex": 399
+      "DebugActionIndex": 417
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.pdb",
@@ -52587,7 +54152,7 @@
       "ToBuildDependencies": [
         195
       ],
-      "DebugActionIndex": 400
+      "DebugActionIndex": 418
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll",
@@ -52608,7 +54173,7 @@
       "ToBuildDependencies": [
         201
       ],
-      "DebugActionIndex": 401
+      "DebugActionIndex": 419
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.pdb",
@@ -52629,7 +54194,7 @@
       "ToBuildDependencies": [
         201
       ],
-      "DebugActionIndex": 402
+      "DebugActionIndex": 420
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll",
@@ -52650,7 +54215,7 @@
       "ToBuildDependencies": [
         207
       ],
-      "DebugActionIndex": 403
+      "DebugActionIndex": 421
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb",
@@ -52671,7 +54236,7 @@
       "ToBuildDependencies": [
         207
       ],
-      "DebugActionIndex": 404
+      "DebugActionIndex": 422
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.dll",
@@ -52692,7 +54257,7 @@
       "ToBuildDependencies": [
         219
       ],
-      "DebugActionIndex": 405
+      "DebugActionIndex": 423
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.pdb",
@@ -52713,7 +54278,7 @@
       "ToBuildDependencies": [
         219
       ],
-      "DebugActionIndex": 406
+      "DebugActionIndex": 424
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll",
@@ -52734,7 +54299,7 @@
       "ToBuildDependencies": [
         225
       ],
-      "DebugActionIndex": 407
+      "DebugActionIndex": 425
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb",
@@ -52755,7 +54320,7 @@
       "ToBuildDependencies": [
         225
       ],
-      "DebugActionIndex": 408
+      "DebugActionIndex": 426
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll",
@@ -52776,7 +54341,7 @@
       "ToBuildDependencies": [
         231
       ],
-      "DebugActionIndex": 409
+      "DebugActionIndex": 427
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb",
@@ -52797,7 +54362,7 @@
       "ToBuildDependencies": [
         231
       ],
-      "DebugActionIndex": 410
+      "DebugActionIndex": 428
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll",
@@ -52818,7 +54383,7 @@
       "ToBuildDependencies": [
         237
       ],
-      "DebugActionIndex": 411
+      "DebugActionIndex": 429
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb",
@@ -52839,7 +54404,7 @@
       "ToBuildDependencies": [
         237
       ],
-      "DebugActionIndex": 412
+      "DebugActionIndex": 430
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll",
@@ -52860,7 +54425,7 @@
       "ToBuildDependencies": [
         249
       ],
-      "DebugActionIndex": 413
+      "DebugActionIndex": 431
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb",
@@ -52881,7 +54446,7 @@
       "ToBuildDependencies": [
         249
       ],
-      "DebugActionIndex": 414
+      "DebugActionIndex": 432
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.InputSystem.DocCodeSamples.dll",
@@ -52902,7 +54467,7 @@
       "ToBuildDependencies": [
         256
       ],
-      "DebugActionIndex": 415
+      "DebugActionIndex": 433
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.InputSystem.DocCodeSamples.pdb",
@@ -52923,7 +54488,7 @@
       "ToBuildDependencies": [
         256
       ],
-      "DebugActionIndex": 416
+      "DebugActionIndex": 434
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
@@ -52944,7 +54509,7 @@
       "ToBuildDependencies": [
         263
       ],
-      "DebugActionIndex": 417
+      "DebugActionIndex": 435
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.InputSystem.ForUI.pdb",
@@ -52965,7 +54530,7 @@
       "ToBuildDependencies": [
         263
       ],
-      "DebugActionIndex": 418
+      "DebugActionIndex": 436
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
@@ -52986,7 +54551,7 @@
       "ToBuildDependencies": [
         269
       ],
-      "DebugActionIndex": 419
+      "DebugActionIndex": 437
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.InputSystem.TestFramework.pdb",
@@ -53007,7 +54572,7 @@
       "ToBuildDependencies": [
         269
       ],
-      "DebugActionIndex": 420
+      "DebugActionIndex": 438
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.dll",
@@ -53028,7 +54593,7 @@
       "ToBuildDependencies": [
         275
       ],
-      "DebugActionIndex": 421
+      "DebugActionIndex": 439
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.pdb",
@@ -53049,7 +54614,7 @@
       "ToBuildDependencies": [
         275
       ],
-      "DebugActionIndex": 422
+      "DebugActionIndex": 440
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.Entities.dll",
@@ -53070,7 +54635,7 @@
       "ToBuildDependencies": [
         282
       ],
-      "DebugActionIndex": 423
+      "DebugActionIndex": 441
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.Entities.pdb",
@@ -53091,7 +54656,7 @@
       "ToBuildDependencies": [
         282
       ],
-      "DebugActionIndex": 424
+      "DebugActionIndex": 442
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll",
@@ -53112,7 +54677,7 @@
       "ToBuildDependencies": [
         288
       ],
-      "DebugActionIndex": 425
+      "DebugActionIndex": 443
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb",
@@ -53133,7 +54698,7 @@
       "ToBuildDependencies": [
         288
       ],
-      "DebugActionIndex": 426
+      "DebugActionIndex": 444
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll",
@@ -53154,7 +54719,7 @@
       "ToBuildDependencies": [
         297
       ],
-      "DebugActionIndex": 427
+      "DebugActionIndex": 445
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb",
@@ -53175,7 +54740,7 @@
       "ToBuildDependencies": [
         297
       ],
-      "DebugActionIndex": 428
+      "DebugActionIndex": 446
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll",
@@ -53196,7 +54761,7 @@
       "ToBuildDependencies": [
         304
       ],
-      "DebugActionIndex": 429
+      "DebugActionIndex": 447
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb",
@@ -53217,7 +54782,7 @@
       "ToBuildDependencies": [
         304
       ],
-      "DebugActionIndex": 430
+      "DebugActionIndex": 448
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -53238,7 +54803,7 @@
       "ToBuildDependencies": [
         311
       ],
-      "DebugActionIndex": 431
+      "DebugActionIndex": 449
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.pdb",
@@ -53259,7 +54824,7 @@
       "ToBuildDependencies": [
         311
       ],
-      "DebugActionIndex": 432
+      "DebugActionIndex": 450
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll",
@@ -53280,7 +54845,7 @@
       "ToBuildDependencies": [
         317
       ],
-      "DebugActionIndex": 433
+      "DebugActionIndex": 451
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb",
@@ -53301,7 +54866,7 @@
       "ToBuildDependencies": [
         317
       ],
-      "DebugActionIndex": 434
+      "DebugActionIndex": 452
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll",
@@ -53322,7 +54887,7 @@
       "ToBuildDependencies": [
         324
       ],
-      "DebugActionIndex": 435
+      "DebugActionIndex": 453
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.pdb",
@@ -53343,7 +54908,7 @@
       "ToBuildDependencies": [
         324
       ],
-      "DebugActionIndex": 436
+      "DebugActionIndex": 454
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
@@ -53364,7 +54929,7 @@
       "ToBuildDependencies": [
         331
       ],
-      "DebugActionIndex": 437
+      "DebugActionIndex": 455
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.pdb",
@@ -53385,7 +54950,7 @@
       "ToBuildDependencies": [
         331
       ],
-      "DebugActionIndex": 438
+      "DebugActionIndex": 456
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.dll",
@@ -53406,7 +54971,7 @@
       "ToBuildDependencies": [
         337
       ],
-      "DebugActionIndex": 439
+      "DebugActionIndex": 457
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.pdb",
@@ -53427,7 +54992,7 @@
       "ToBuildDependencies": [
         337
       ],
-      "DebugActionIndex": 440
+      "DebugActionIndex": 458
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.DocCodeExamples.dll",
@@ -53448,7 +55013,7 @@
       "ToBuildDependencies": [
         343
       ],
-      "DebugActionIndex": 441
+      "DebugActionIndex": 459
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.DocCodeExamples.pdb",
@@ -53469,7 +55034,7 @@
       "ToBuildDependencies": [
         343
       ],
-      "DebugActionIndex": 442
+      "DebugActionIndex": 460
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll",
@@ -53490,7 +55055,7 @@
       "ToBuildDependencies": [
         350
       ],
-      "DebugActionIndex": 443
+      "DebugActionIndex": 461
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.pdb",
@@ -53511,7 +55076,7 @@
       "ToBuildDependencies": [
         350
       ],
-      "DebugActionIndex": 444
+      "DebugActionIndex": 462
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
@@ -53532,7 +55097,7 @@
       "ToBuildDependencies": [
         357
       ],
-      "DebugActionIndex": 445
+      "DebugActionIndex": 463
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.pdb",
@@ -53553,7 +55118,7 @@
       "ToBuildDependencies": [
         357
       ],
-      "DebugActionIndex": 446
+      "DebugActionIndex": 464
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll",
@@ -53574,7 +55139,7 @@
       "ToBuildDependencies": [
         363
       ],
-      "DebugActionIndex": 447
+      "DebugActionIndex": 465
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb",
@@ -53595,7 +55160,7 @@
       "ToBuildDependencies": [
         363
       ],
-      "DebugActionIndex": 448
+      "DebugActionIndex": 466
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll",
@@ -53616,7 +55181,7 @@
       "ToBuildDependencies": [
         371
       ],
-      "DebugActionIndex": 449
+      "DebugActionIndex": 467
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.pdb",
@@ -53637,7 +55202,7 @@
       "ToBuildDependencies": [
         371
       ],
-      "DebugActionIndex": 450
+      "DebugActionIndex": 468
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll",
@@ -53658,7 +55223,7 @@
       "ToBuildDependencies": [
         377
       ],
-      "DebugActionIndex": 451
+      "DebugActionIndex": 469
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb",
@@ -53679,15 +55244,58 @@
       "ToBuildDependencies": [
         377
       ],
-      "DebugActionIndex": 452
+      "DebugActionIndex": 470
+    },
+    {
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll",
+      "DisplayName": "Copying Assembly-CSharp.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Library/ScriptAssemblies/Assembly-CSharp.dll"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        384
+      ],
+      "DebugActionIndex": 471
+    },
+    {
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb",
+      "DisplayName": "Copying Assembly-CSharp.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Library/ScriptAssemblies/Assembly-CSharp.pdb"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        384
+      ],
+      "DebugActionIndex": 472
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "Extracting script serialization layouts",
-      "Action": "\"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.InternalAPIEngineBridge.004.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.Multiplayer.Center.Common.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.VisualScripting.DocCodeExamples.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d\\net40\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.testtools.codecoverage@19a841221620\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.visualscripting@eb6004dcc707\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d\\net40\\unity-custom\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.testtools.codecoverage@19a841221620\\lib\\ReportGenerator\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.visualscripting@eb6004dcc707\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data\\netcorerun\\netcorerun.exe\" \"C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.InternalAPIEngineBridge.004.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.Multiplayer.Center.Common.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.VisualScripting.DocCodeExamples.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d\\net40\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.testtools.codecoverage@19a841221620\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.visualscripting@eb6004dcc707\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Simulacion\\6000.3.11f1-x86_64\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d\\net40\\unity-custom\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.testtools.codecoverage@19a841221620\\lib\\ReportGenerator\" -s=\"C:\\Users\\Usuario\\Documents\\Emily\\Museos y tecnologias\\Oro-y-papel-Expo\\Library\\PackageCache\\com.unity.visualscripting@eb6004dcc707\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/netcorerun/netcorerun.exe",
         "C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Tools/BuildPipeline/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
@@ -53723,6 +55331,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "Outputs": [
@@ -53732,22 +55341,23 @@
         0
       ],
       "ToBuildDependencies": [
-        381,
-        389,
-        395,
-        397,
         399,
-        411,
+        407,
+        413,
+        415,
         417,
-        419,
-        427,
-        431,
+        429,
+        435,
         437,
-        441,
-        445
+        445,
+        449,
+        455,
+        459,
+        463,
+        471
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 453
+      "DebugActionIndex": 473
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -53758,9 +55368,9 @@
       "OutputFlags": [],
       "ToBuildDependencies": [
         6,
-        453
+        473
       ],
-      "DebugActionIndex": 454
+      "DebugActionIndex": 474
     }
   ],
   "FileSignatures": [
@@ -54030,7 +55640,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-          "ScriptAssembliesAndTypeDB": 454
+          "ScriptAssembliesAndTypeDB": 474
         }
 ,  "DefaultNodes": [
     0
