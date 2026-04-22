@@ -15,11 +15,11 @@ public class InteraccionJugador : MonoBehaviour
 
             if (Physics.Raycast(rayo, out impacto, distancia))
             {
-                ObjetoInteractivo obj = impacto.collider.GetComponent<ObjetoInteractivo>();
+                PanelInteractivo panel = impacto.collider.GetComponent<PanelInteractivo>();
 
-                if (obj != null)
+                if (panel != null)
                 {
-                    obj.Interactuar();
+                    panel.Interactuar();
                 }
             }
         }

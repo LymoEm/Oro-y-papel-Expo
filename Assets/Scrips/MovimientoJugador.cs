@@ -15,10 +15,12 @@ public class MovimientoJugador : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = true;
     }
 
     void Update()
     {
+
         Mover();
         Mirar();
     }

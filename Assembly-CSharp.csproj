@@ -63,11 +63,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scrips\InteraccionJugador.cs" />
     <Compile Include="Assets\Scrips\VideoACambioEscena.cs" />
+    <Compile Include="Assets\Scrips\FlechaLuminosa.cs" />
     <Compile Include="Assets\Scrips\MovimientoJugador.cs" />
     <Compile Include="Assets\Scrips\EfectoBrillo.cs" />
     <Compile Include="Assets\Scrips\CambiarEscena.cs" />
     <Compile Include="Assets\Scrips\PosicionarJugador.cs" />
     <Compile Include="Assets\Scrips\ObjetoInteractivo.cs" />
+    <Compile Include="Assets\Scrips\BloqueoParedes.cs" />
+    <Compile Include="Assets\Scrips\PanelInteractivo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
