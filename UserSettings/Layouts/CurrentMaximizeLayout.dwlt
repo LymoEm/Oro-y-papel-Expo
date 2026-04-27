@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 30003
+  controlID: 1692
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 30004
+  controlID: 1693
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 30005
+  controlID: 1694
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -202,8 +202,8 @@ MonoBehaviour:
     y: 0
     width: 256.8
     height: 452.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -249,19 +249,16 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 42.200012}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: []
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -34560
-      - m_Data: -17076
-      - m_Data: -15322
-      - m_Data: -2154
-      - m_Data: -2152
-      - m_Data: -1290
-      - m_Data: 35382
-      - m_Data: 35792
+      - m_Data: -4638
+      - m_Data: -4018
+      - m_Data: -1294
+      - m_Data: 35502
+      - m_Data: 38478
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -910,9 +907,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1.4, y: -0.516, z: -5.77}
+    m_Target: {x: 2.230382, y: -0.54002714, z: -5.7938156}
     speed: 2
-    m_Value: {x: 1.4, y: -0.516, z: -5.77}
+    m_Value: {x: 2.230382, y: -0.54002714, z: -5.7938156}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -958,13 +955,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.09362353, y: 0.90627074, z: -0.3109744, w: -0.27219516}
+    m_Target: {x: -0.16044652, y: 0.67996746, z: -0.15519138, w: -0.6991199}
     speed: 2
-    m_Value: {x: -0.09358202, y: 0.90586895, z: -0.31083652, w: -0.27207446}
+    m_Value: {x: -0.1603702, y: 0.67964405, z: -0.15511756, w: -0.6987874}
   m_Size:
-    m_Target: 2.3762383
+    m_Target: 2.3632553
     speed: 2
-    m_Value: 2.3762383
+    m_Value: 2.3632553
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1130,7 +1127,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scrips
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1140,7 +1137,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scrips
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Usuario\Documents\Emily\Museos y tecnologias\Oro-y-papel-Expo
   m_LockTracker:
@@ -1149,12 +1146,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 35558
+    - m_Data: 36016
     m_LastClickedID:
-      m_Data: 35558
+      m_Data: 36016
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 35552
+    - m_Data: 36016
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1216,9 +1213,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 35786
-    m_LastClickedInstanceID: 35786
-    m_HadKeyboardFocusLastEvent: 0
+    - m_Data: 38478
+    m_LastClickedInstanceID: 38478
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 45292
     - m_Data: 45778
@@ -1400,8 +1397,8 @@ MonoBehaviour:
     m_CachedPref: 336.00003
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 35786
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: 38478
+  m_LastVerticalScrollValue: 191.19995
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
