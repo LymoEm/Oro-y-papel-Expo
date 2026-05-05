@@ -1,11 +1,11 @@
-[Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::Module] Trying to connect to existing licensing client channel...
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'es' Physical Memory: 16075 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Usuario" at "2026-04-27T05:37:55.1484838Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Usuario" at "2026-05-05T16:17:55.6971203Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-27T05:37:55Z
+Date: 2026-05-05T16:17:55Z
 
 COMMAND LINE ARGUMENTS:
 C:\Users\Usuario\Documents\Emily\Simulacion\6000.3.11f1-x86_64\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Usuario/Documents/Emily/Museos y tecnologias/Oro-y-papel-Expo
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55291
+51682
 -licensingIpc
 LicenseClient-Usuario
 -job-worker-count
@@ -67,14 +67,14 @@ C:/Users/Usuario/Documents/Emily/Museos y tecnologias/Oro-y-papel-Expo
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [10372]  Target information:
+Player connection [26192]  Target information:
 
-Player connection [10372]  * "[IP] 172.24.64.1 [Port] 0 [Flags] 2 [Guid] 754985368 [EditorId] 754985368 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GOSQKS5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [26192]  * "[IP] 172.18.32.1 [Port] 0 [Flags] 2 [Guid] 780925770 [EditorId] 780925770 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GOSQKS5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10372]  * "[IP] 192.168.128.7 [Port] 0 [Flags] 2 [Guid] 754985368 [EditorId] 754985368 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GOSQKS5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [26192]  * "[IP] 192.168.128.7 [Port] 0 [Flags] 2 [Guid] 780925770 [EditorId] 780925770 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GOSQKS5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10372] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10372] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26192] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26192] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.11f1 (3000ef702840)
 [Subsystems] Discovering subsystems at path C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Resources/UnitySubsystems
@@ -102,7 +102,7 @@ Initialize mono
 Mono path[0] = 'C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -112,27 +112,27 @@ Register platform support module: C:/Users/Usuario/Documents/Emily/Simulacion/60
 	ResponseStatus: Unsupported protocol version '1.18.0'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Usuario"
 [Licensing::IpcConnector] LicenseClient-Usuario channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Usuario-6000.3.11" at "2026-04-27T05:37:56.6682856Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Usuario-6000.3.11" at "2026-05-05T16:17:57.7022542Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.0+23225a6
-  Session Id:              ea722487091a4d908875a26e7a946262
-  Correlation Id:          de00f24e4d5a5b73e9734524af904dd9
-  External correlation Id: 8071656231931794403
+  Session Id:              49ed78a20cf64c498bb70906a6f83ede
+  Correlation Id:          551a4e56f1eca2c00fa2073a3afe4739
+  External correlation Id: 8667758443827983043
   Machine Id:              8RkJVNN/EbKDTggCvtiREU4YRgs=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Usuario-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.13s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Usuario-6000.3.11-notifications" at "2026-04-27T05:37:56.8048427Z"
-[Licensing::Module] Licensing Background thread has ended after 1.66s
-[Licensing::Module] Licensing is initialized (took 0.59s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Usuario-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.24s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Usuario-6000.3.11-notifications" at "2026-05-05T16:17:57.9469079Z"
+[Licensing::Module] Licensing Background thread has ended after 2.25s
+[Licensing::Module] Licensing is initialized (took 0.90s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 4674068728694-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Trying to register platform support module: C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (that doesn't exist). Retrying without overrides.
-Platform support module is not available: C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.593539 seconds.
-- Loaded All Assemblies, in  1.210 seconds
+Register platform support module: C:/Users/Usuario/Documents/Emily/Simulacion/6000.3.11f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.912189 seconds.
+- Loaded All Assemblies, in  1.791 seconds
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -140,35 +140,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.486 seconds
-Domain Reload Profiling: 1693ms
-	BeginReloadAssembly (229ms)
+- Finished resetting the current domain, in  0.637 seconds
+Domain Reload Profiling: 2424ms
+	BeginReloadAssembly (341ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (663ms)
-	LoadAllAssembliesAndSetupDomain (231ms)
-		LoadAssemblies (225ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (1001ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (336ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (226ms)
-			TypeCache.Refresh (223ms)
-				TypeCache.ScanAssembly (203ms)
+		AnalyzeDomain (341ms)
+			TypeCache.Refresh (336ms)
+				TypeCache.ScanAssembly (310ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (486ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (638ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (440ms)
+		SetupLoadedEditorAssemblies (572ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (57ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (171ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
+			InitializePlatformSupportModulesInManaged (100ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -178,8 +178,9 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.926 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.223 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -189,212 +190,205 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.085 seconds
-Domain Reload Profiling: 2008ms
-	BeginReloadAssembly (239ms)
+- Finished resetting the current domain, in  1.314 seconds
+Domain Reload Profiling: 2530ms
+	BeginReloadAssembly (309ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (569ms)
-		LoadAssemblies (409ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (740ms)
+		LoadAssemblies (566ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (289ms)
-			TypeCache.Refresh (218ms)
-				TypeCache.ScanAssembly (197ms)
-			BuildScriptInfoCaches (61ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (284ms)
+				TypeCache.ScanAssembly (259ms)
+			BuildScriptInfoCaches (66ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (1085ms)
+	FinalizeReload (1315ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (923ms)
+		SetupLoadedEditorAssemblies (1118ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (166ms)
-			ProcessInitializeOnLoadAttributes (694ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (239ms)
+			ProcessInitializeOnLoadAttributes (785ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3904 unused Assets / (1.2 MB). Loaded Objects now: 4491.
-Memory consumption went from 93.8 MB to 92.6 MB.
-Total: 10.955700 ms (FindLiveObjects: 0.876000 ms CreateObjectMapping: 1.205200 ms MarkObjects: 6.916300 ms  DeleteObjects: 1.956600 ms)
+Unloading 3904 unused Assets / (1.0 MB). Loaded Objects now: 4492.
+Memory consumption went from 92.2 MB to 91.3 MB.
+Total: 10.479000 ms (FindLiveObjects: 0.734400 ms CreateObjectMapping: 1.341900 ms MarkObjects: 6.577700 ms  DeleteObjects: 1.823500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 485506.787880 seconds.
-  path: Assets/Scenes/objetos/anillos/anillos.fbx
-  artifactKey: Guid(bb2ec3cfe64875740af8a77fb7d5a764) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/anillos/anillos.fbx using Guid(bb2ec3cfe64875740af8a77fb7d5a764) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75d848e0a5b916b4cb77277abb00daf3') in 0.2320144 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+  Time since last request: 1007.164309 seconds.
+  path: Assets/Scenes/paredes separadoras.fbx
+  artifactKey: Guid(fb964e62777768b45808bb67ac68011e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/paredes separadoras.fbx using Guid(fb964e62777768b45808bb67ac68011e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17eba4aa8e5850ca2da6dbf06365e28d') in 0.2086682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Scenes/objetos/Libros/lib2.mat
-  artifactKey: Guid(3b25793ea88a9664d9ccc9022bdf48cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/lib2.mat using Guid(3b25793ea88a9664d9ccc9022bdf48cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9abaa2a69e2a47a1a1fd294e0cddfb8') in 0.0755152 seconds
+  Time since last request: 966.751704 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_PlasterPainted_7664_BaseColor.jpg
+  artifactKey: Guid(e43a439a7178ee94bb179cddd4252ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_PlasterPainted_7664_BaseColor.jpg using Guid(e43a439a7178ee94bb179cddd4252ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: 'f484f79effdc68fb89f50234c1f330bf') in 0.1320457 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Scenes/objetos/Libros/LIBRO10.png
-  artifactKey: Guid(abac2b10018d6524c80dafcfb12a7618) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/LIBRO10.png using Guid(abac2b10018d6524c80dafcfb12a7618) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5157ae51310749d4598108ea3047f4a') in 0.0766523 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Scenes/objetos/Libros/LIBRO4color.png
-  artifactKey: Guid(1b7b58b48cf634b44b94baf9b6a7b48d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/LIBRO4color.png using Guid(1b7b58b48cf634b44b94baf9b6a7b48d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb62c781b86c8738b94d739a2534ea80') in 0.0195594 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/objetos/anillos/piedra1.mat
-  artifactKey: Guid(07bf836fbac00384fa6733c242294c1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/anillos/piedra1.mat using Guid(07bf836fbac00384fa6733c242294c1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44d35f4e1070ab157d4c2ffee83df650') in 0.0058607 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Scenes/objetos/Libros/lib1.mat
-  artifactKey: Guid(7b438c8d27f14154aa21a77533cf240b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/lib1.mat using Guid(7b438c8d27f14154aa21a77533cf240b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b03c3a9fd9387431f9ff9a16815cebb') in 0.0142368 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Scenes/objetos/Libros/LIBRO2COLOR.png
-  artifactKey: Guid(41f5b29e320da4f4d8ab595e8ce3d09d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/LIBRO2COLOR.png using Guid(41f5b29e320da4f4d8ab595e8ce3d09d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b46e33e8bb68bef06904c998325b75d6') in 0.0156548 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Scenes/objetos/Libros/lib10.mat
-  artifactKey: Guid(223867cbe9681b94787b511c7247433b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/lib10.mat using Guid(223867cbe9681b94787b511c7247433b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18d2e87ef7325147d00d108ad158c35e') in 0.0100143 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Scenes/objetos/Libros/LIBRO1.png
-  artifactKey: Guid(edc000b3fd0db7a41aeea31819700389) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/LIBRO1.png using Guid(edc000b3fd0db7a41aeea31819700389) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e22247f2006c51197ad306e9445452dc') in 0.0170308 seconds
+  Time since last request: 0.916640 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_PlasterPainted_7664_Displacement.tiff
+  artifactKey: Guid(fe92fba1a516fbd49ade5247661a3dc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_PlasterPainted_7664_Displacement.tiff using Guid(fe92fba1a516fbd49ade5247661a3dc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1b606883526c264b9173d26d662b8fc') in 0.0567326 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Scenes/objetos/Libros/lib11.mat
-  artifactKey: Guid(137e7f22ebc9ea04cb7c1e18d565d0ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/lib11.mat using Guid(137e7f22ebc9ea04cb7c1e18d565d0ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45574620fdbe53b33638f9b9f38d114f') in 0.0084311 seconds
+  path: Assets/Scenes/MaterialesImg/Poliigon_PlasterPainted_7664_BaseColor.jpg
+  artifactKey: Guid(e43a439a7178ee94bb179cddd4252ec5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_PlasterPainted_7664_BaseColor.jpg using Guid(e43a439a7178ee94bb179cddd4252ec5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9837336459b0f9422f96c6b99b527d1') in 0.0178261 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Scenes/objetos/anillos
-  artifactKey: Guid(badae90e4cd9af649b339c361404ab60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/anillos using Guid(badae90e4cd9af649b339c361404ab60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c530cdc50576880b816268fef413e3e6') in 0.0070474 seconds
+  Time since last request: 136.084958 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_BaseColor.jpg
+  artifactKey: Guid(413b104339c9e634cbd8731713f9f686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_BaseColor.jpg using Guid(413b104339c9e634cbd8731713f9f686) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d8f91ec9d1dbc87d0bbbb6c012fafa0') in 0.022169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_Roughness.jpg
+  artifactKey: Guid(da00210d8b323d04c991a78ed8427f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_Roughness.jpg using Guid(da00210d8b323d04c991a78ed8427f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13cf708f1b3ca20c30c7bc35f8928f1b') in 0.0275773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_Displacement.tiff
+  artifactKey: Guid(0a219061f4a0b694686922da6f8260f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_Displacement.tiff using Guid(0a219061f4a0b694686922da6f8260f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6532849ea2287ef02d20ca52437a0b2') in 0.0180046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.950849 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_Displacement.tiff
+  artifactKey: Guid(0a219061f4a0b694686922da6f8260f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_Displacement.tiff using Guid(0a219061f4a0b694686922da6f8260f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '105da98f0b75b29ddc41a93b0ec05ef9') in 0.0097344 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Scenes/objetos/Libros/LIBRO3COLOR.png
-  artifactKey: Guid(f7f21c70a00f33240b049ae627a7238c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/LIBRO3COLOR.png using Guid(f7f21c70a00f33240b049ae627a7238c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '737ca65a46112338e2540d7ba11a794c') in 0.019853 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_Metallic.jpg
+  artifactKey: Guid(4c826fa06fb4e2d4f882fba9f3587d2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_Metallic.jpg using Guid(4c826fa06fb4e2d4f882fba9f3587d2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '372bc13efcdec2a28d94c6e69f11ff77') in 0.0173149 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Scenes/objetos/Libros/LIBRO8.png
-  artifactKey: Guid(dd240f03d09fbd24d843c23ecb193f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/LIBRO8.png using Guid(dd240f03d09fbd24d843c23ecb193f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2787f291e52d27e7944fe5532624b1f1') in 0.0174893 seconds
+  Time since last request: 0.000157 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_BaseColor.jpg
+  artifactKey: Guid(413b104339c9e634cbd8731713f9f686) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalSteelBrushed_7174_BaseColor.jpg using Guid(413b104339c9e634cbd8731713f9f686) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c5c176d0f204fc7fb717b6caa8952f7') in 0.0118969 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Scenes/objetos/Libros/lib4.mat
-  artifactKey: Guid(c049862b32e7ef642bcb156e8e123368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/lib4.mat using Guid(c049862b32e7ef642bcb156e8e123368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '101009980ac14b6f7a94d4406db9d324') in 0.0141642 seconds
+  Time since last request: 296.491691 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_BaseColor.jpg
+  artifactKey: Guid(bff51a600fe18ab45ae72eeeb3aa6d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_BaseColor.jpg using Guid(bff51a600fe18ab45ae72eeeb3aa6d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41550fbc4dea89d2bb24fb3241f7daa7') in 0.0244676 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Scenes/objetos/Libros
-  artifactKey: Guid(e0a5cf54dcdb5124e8643daad2c66fb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros using Guid(e0a5cf54dcdb5124e8643daad2c66fb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a94ceb2d0cd00ef2d5fda1c9af61a298') in 0.0066492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_Displacement.tiff
+  artifactKey: Guid(3125ef3ad11faa040b9fda3e30cfc14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_Displacement.tiff using Guid(3125ef3ad11faa040b9fda3e30cfc14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '269823931768a8d1b56139c2d56ad3d2') in 0.0288146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Scenes/objetos/Libros/hojas.mat
-  artifactKey: Guid(c8acff87b94491a4b8b0ad5396c7ebe0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/hojas.mat using Guid(c8acff87b94491a4b8b0ad5396c7ebe0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20bc0b8861b08b0fdf6813e1a057fbbf') in 0.0090597 seconds
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_Metallic.jpg
+  artifactKey: Guid(2664334a30e27eb44a304b5619d5d99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_Metallic.jpg using Guid(2664334a30e27eb44a304b5619d5d99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd288200f114875ea69cc61250e2ffab') in 0.0181487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.897488 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_Normal.png
+  artifactKey: Guid(c6c121248925f5c43bf36f50133315ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_Normal.png using Guid(c6c121248925f5c43bf36f50133315ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87c8c0d75de3c7b25a1b4dba73c3e88e') in 0.0136733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_BaseColor.jpg
+  artifactKey: Guid(bff51a600fe18ab45ae72eeeb3aa6d86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_BaseColor.jpg using Guid(bff51a600fe18ab45ae72eeeb3aa6d86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94c714bccbbaef2d6a637a8ebdae26e4') in 0.0153015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_Roughness.jpg
+  artifactKey: Guid(6a09cf3b544eeb54d920abb1255662db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_Roughness.jpg using Guid(6a09cf3b544eeb54d920abb1255662db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e5d528e66e2c568a39543d0a4ad4fe4') in 0.0273502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 393.364583 seconds.
+  path: Assets/Scenes/MaterialesImg/matPared.mat
+  artifactKey: Guid(0172b1523b083724b9b407b81db1166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MaterialesImg/matPared.mat using Guid(0172b1523b083724b9b407b81db1166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7de452d09fbec91d090a4cbfc89480f') in 0.3515775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.602356 seconds.
+  path: Assets/Scenes/MaterialesImg/madera.mat
+  artifactKey: Guid(007bb563aa1e8bf4b985ca407524e663) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MaterialesImg/madera.mat using Guid(007bb563aa1e8bf4b985ca407524e663) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e452df9d923161d32825633b07680835') in 0.0424904 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Scenes/objetos/anillos/piedra3.mat
-  artifactKey: Guid(12bf74a14e5632549aa1da2204ab03eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/anillos/piedra3.mat using Guid(12bf74a14e5632549aa1da2204ab03eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4dd2bea1ce397eb36d937bfd1a397f4c') in 0.0110916 seconds
+  path: Assets/Scenes/EspacioExpo 1.unity
+  artifactKey: Guid(8f73aafba68d0f249b8280557af143f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/EspacioExpo 1.unity using Guid(8f73aafba68d0f249b8280557af143f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17e23048fbcd4b4f5b3eaee364909f7a') in 0.0140307 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scenes/EspacioExpo.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/EspacioExpo.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf6ca5d304cac84e87ca4da9778e0b88') in 0.0165897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scenes/objetos/Libros/lib3.mat
-  artifactKey: Guid(03c140a51aff10242a974f1f30f3bc3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/lib3.mat using Guid(03c140a51aff10242a974f1f30f3bc3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '792f0d90deb08cf3d6f65b917a7602f7') in 0.0172772 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Scenes/objetos/Libros/LIBRO9.png
-  artifactKey: Guid(a981d3a3f94349e42872dee65d6ae54f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/LIBRO9.png using Guid(a981d3a3f94349e42872dee65d6ae54f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a73511310f50186ecaa14bb35cb20578') in 0.0227517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Scenes/objetos/Libros/lib7.mat
-  artifactKey: Guid(0d2bf0848cd2b1c4d8ab1d1ba539c7ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/objetos/Libros/lib7.mat using Guid(0d2bf0848cd2b1c4d8ab1d1ba539c7ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4783047071e793c8e621b200ae6d7beb') in 0.0198313 seconds
+  Time since last request: 53.906322 seconds.
+  path: Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_Normal.png
+  artifactKey: Guid(c6c121248925f5c43bf36f50133315ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_Normal.png using Guid(c6c121248925f5c43bf36f50133315ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e60736c0d2509e6691295fe213b27310') in 0.0417635 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
