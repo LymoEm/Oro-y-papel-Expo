@@ -392,3 +392,236 @@ Received Import Request.
 Start importing Assets/Scenes/MaterialesImg/Poliigon_MetalGoldPaint_7253_Normal.png using Guid(c6c121248925f5c43bf36f50133315ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e60736c0d2509e6691295fe213b27310') in 0.0417635 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 1665.371093 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(289c1b55c9541489481df5cc06664110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(289c1b55c9541489481df5cc06664110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cc23d78d78ad283fb5c6fb474088976') in 0.0325301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.737 seconds
+Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.247 seconds
+Domain Reload Profiling: 2986ms
+	BeginReloadAssembly (688ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (324ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (887ms)
+		LoadAssemblies (771ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (273ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1024ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (720ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3902 unused Assets / (1.3 MB). Loaded Objects now: 4541.
+Memory consumption went from 94.8 MB to 93.5 MB.
+Total: 15.816600 ms (FindLiveObjects: 0.785100 ms CreateObjectMapping: 1.314300 ms MarkObjects: 10.202000 ms  DeleteObjects: 3.512900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 690.007901 seconds.
+  path: Assets/Scenes/objetos/Libros/lib1.mat
+  artifactKey: Guid(7b438c8d27f14154aa21a77533cf240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/lib1.mat using Guid(7b438c8d27f14154aa21a77533cf240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e21c45d197f0fdfa74091bbe0ec03bc3') in 0.1535981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/objetos/Libros/LIBRO6.png
+  artifactKey: Guid(7da6c976124f18f4daa04997ff90865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/LIBRO6.png using Guid(7da6c976124f18f4daa04997ff90865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c50be79d0730d2a39ef17b7ad7ec150') in 0.0416495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/objetos/Libros/lib8.mat
+  artifactKey: Guid(1a785b9972ff90b4582609d340972e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/lib8.mat using Guid(1a785b9972ff90b4582609d340972e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35a6a4a4c18a8d101efc189d7b351972') in 0.0486896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/objetos/Libros/LIBRO2COLOR.png
+  artifactKey: Guid(41f5b29e320da4f4d8ab595e8ce3d09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/LIBRO2COLOR.png using Guid(41f5b29e320da4f4d8ab595e8ce3d09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96cd0ac8719c049d55a2035918d08f4b') in 0.0690336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/objetos/Libros/lib3.mat
+  artifactKey: Guid(03c140a51aff10242a974f1f30f3bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/lib3.mat using Guid(03c140a51aff10242a974f1f30f3bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4f7196e3efddfaa7bafba3895a13282') in 0.0557123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/objetos/Libros/LIBRO7.png
+  artifactKey: Guid(917b3c63f7e59ec40b0495dd22811d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/LIBRO7.png using Guid(917b3c63f7e59ec40b0495dd22811d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efab1addc44d2b7c630b05b2e46b1e43') in 0.0279969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/objetos/Libros/lib7.mat
+  artifactKey: Guid(0d2bf0848cd2b1c4d8ab1d1ba539c7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/lib7.mat using Guid(0d2bf0848cd2b1c4d8ab1d1ba539c7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8842999cd4567487c2df1147b014e90a') in 0.0167831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/objetos/Libros/lib4.mat
+  artifactKey: Guid(c049862b32e7ef642bcb156e8e123368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/lib4.mat using Guid(c049862b32e7ef642bcb156e8e123368) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '484791e30cc5c83ee984b65969dd2520') in 0.0161094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/objetos/Libros/LIBRO5.png
+  artifactKey: Guid(04fabae4f3d425d4a87cf620ee63cb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/LIBRO5.png using Guid(04fabae4f3d425d4a87cf620ee63cb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92e52d8de23dbf9adcd5621996b30690') in 0.0176438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/objetos/Libros/LIBRO10.png
+  artifactKey: Guid(abac2b10018d6524c80dafcfb12a7618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/LIBRO10.png using Guid(abac2b10018d6524c80dafcfb12a7618) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00a349ed571e11e0ab3d3db6855bedcb') in 0.0171696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/objetos/Libros/lib5.mat
+  artifactKey: Guid(a9c2c846a883b1c47903dfa6e4dec445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/lib5.mat using Guid(a9c2c846a883b1c47903dfa6e4dec445) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b554bd9d09b23918a24c030b8defe388') in 0.0154349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/objetos/Libros/lib2.mat
+  artifactKey: Guid(3b25793ea88a9664d9ccc9022bdf48cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/lib2.mat using Guid(3b25793ea88a9664d9ccc9022bdf48cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da8580e556f5cfdb68db44d6ab9a06b4') in 0.0150048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/objetos/Libros/LIBRO1COLOR.png
+  artifactKey: Guid(be0d61ac027e8e14390730b4ddfb91bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/LIBRO1COLOR.png using Guid(be0d61ac027e8e14390730b4ddfb91bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2312e406589f79a394c36523eebea112') in 0.0187254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Scenes/objetos/Libros/lib6.mat
+  artifactKey: Guid(4f6a2f078d83c5e448d671179923cd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/lib6.mat using Guid(4f6a2f078d83c5e448d671179923cd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1c7ed09dd92d9843ed3d59136e2dd07') in 0.0156826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/objetos/Libros/lib11.mat
+  artifactKey: Guid(137e7f22ebc9ea04cb7c1e18d565d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/lib11.mat using Guid(137e7f22ebc9ea04cb7c1e18d565d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd41f4089908e609a3ea872641e145e97') in 0.0090661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Scenes/objetos/Libros/lib10.mat
+  artifactKey: Guid(223867cbe9681b94787b511c7247433b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/lib10.mat using Guid(223867cbe9681b94787b511c7247433b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01671287dcc309333e7e8fca9937f8a9') in 0.0099216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/objetos/Libros/lib9.mat
+  artifactKey: Guid(afe2c011e20809e46afb2078a5c5a02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/lib9.mat using Guid(afe2c011e20809e46afb2078a5c5a02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c59e64c5306aff7c5b76f88eadce4713') in 0.0148636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.196828 seconds.
+  path: Assets/Scenes/objetos/Libros/Materials/Copilot_20260505_122739.mat
+  artifactKey: Guid(edd7079ebe789fb4f816f913f789fc50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/objetos/Libros/Materials/Copilot_20260505_122739.mat using Guid(edd7079ebe789fb4f816f913f789fc50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f12dea0b6a66749e1568a63b36701161') in 0.0802728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.603388 seconds.
+  path: Assets/Scenes/objetos/Libros/hojas 2.mat
+  artifactKey: Guid(ea5bce3aa811bf049b16b9ca0e9f9109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/hojas 2.mat using Guid(ea5bce3aa811bf049b16b9ca0e9f9109) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf33157208ae50819edd81d6f509493c') in 0.007954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.960813 seconds.
+  path: Assets/Scenes/objetos/Libros/hojas 2.mat
+  artifactKey: Guid(ea5bce3aa811bf049b16b9ca0e9f9109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/objetos/Libros/hojas 2.mat using Guid(ea5bce3aa811bf049b16b9ca0e9f9109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3dae5aef35134bb433808a3cf20900fa') in 0.0061438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.268670 seconds.
+  path: Assets/Scenes/objetos/Libros/hojas 1.mat
+  artifactKey: Guid(2e258108fff67dd458aace751d4595c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/objetos/Libros/hojas 1.mat using Guid(2e258108fff67dd458aace751d4595c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b3ea8b432ee4603f5a89aaf8d90aa2c') in 0.0176252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
