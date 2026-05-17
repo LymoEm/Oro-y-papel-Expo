@@ -1,13 +1,15 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PanelInteractivo : MonoBehaviour
 {
     [Header("Configuración")]
     public Transform camaraJugador;
+
     public float distanciaFrente = 1.5f;
+
     public float escalaAgrandada = 3f;
-    public bool tieneBrillo = false;
+
+    public GameObject botonCerrarUI;
 
     private Vector3 posicionOriginal;
     private Quaternion rotacionOriginal;
@@ -21,23 +23,7 @@ public class PanelInteractivo : MonoBehaviour
         rotacionOriginal = transform.rotation;
         escalaOriginal = transform.localScale;
 
-        if (tieneBrillo)
-        {
-            ActivarBrillo();
-        }
-    }
-
-    void Update()
-    {
-        if (estaAgrandado)
-        {
-            // Cerrar con ESC o clic derecho
-            if (Keyboard.current.escapeKey.wasPressedThisFrame ||
-                Mouse.current.rightButton.wasPressedThisFrame)
-            {
-                VolverNormal();
-            }
-        }
+        botonCerrarUI.SetActive(false);
     }
 
     public void Interactuar()
@@ -52,49 +38,49 @@ public class PanelInteractivo : MonoBehaviour
     {
         estaAgrandado = true;
 
-        // Mover frente a la cámara
-        transform.position = camaraJugador.position + camaraJugador.forward * distanciaFrente;
+        transform.position =
+            camaraJugador.position +
+            camaraJugador.forward * distanciaFrente;
 
-        // Mirar a la cámara
         transform.LookAt(camaraJugador);
 
-        // Rotación correcta (evita que quede al revés)
         transform.Rotate(0, 180, 0);
 
-        // Escalar
-        transform.localScale = escalaOriginal * escalaAgrandada;
+        transform.localScale =
+            escalaOriginal * escalaAgrandada;
 
-        // Bloquear movimiento del jugador
-        GameObject jugador = GameObject.Find("Jugador");
+        GameObject jugador =
+            GameObject.Find("Jugador");
+
         if (jugador != null)
         {
             jugador.GetComponent<MovimientoJugador>().enabled = false;
         }
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        botonCerrarUI.SetActive(true);
     }
 
-    void VolverNormal()
+    public void Restaurar()
     {
         estaAgrandado = false;
 
         transform.position = posicionOriginal;
+
         transform.rotation = rotacionOriginal;
+
         transform.localScale = escalaOriginal;
 
-        // Activar movimiento otra vez
-        GameObject jugador = GameObject.Find("Jugador");
+        GameObject jugador =
+            GameObject.Find("Jugador");
+
         if (jugador != null)
         {
             jugador.GetComponent<MovimientoJugador>().enabled = true;
         }
-    }
 
-    void ActivarBrillo()
-    {
-        Renderer r = GetComponent<Renderer>();
-        if (r != null)
-        {
-            r.material.EnableKeyword("_EMISSION");
-            r.material.SetColor("_EmissionColor", Color.yellow * 2f);
-        }
+        botonCerrarUI.SetActive(false);
     }
 }

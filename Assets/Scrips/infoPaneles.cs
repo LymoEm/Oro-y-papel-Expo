@@ -1,15 +1,19 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using System.Collections;
 
 public class infoPaneles : MonoBehaviour
 {
     [Header("Cámara")]
     public Camera mainCamera;
+
     public Transform cameraFocusPoint;
+
     public float cameraSpeed = 4f;
 
     private Vector3 originalCamPos;
+
     private Quaternion originalCamRot;
 
     [Header("Jugador")]
@@ -17,142 +21,284 @@ public class infoPaneles : MonoBehaviour
 
     [Header("UI")]
     public GameObject panelUI;
+
     public Button botonSaberMas;
+
     public Button botonDatoCurioso;
+
     public Button botonCerrar;
 
     [Header("Contenido UI")]
     public GameObject imagenInicial;
+
     public GameObject contenedorTexto;
-    public Text textoUI;
+
+    public TMP_Text textoUI;
 
     [TextArea]
     public string textoCompleto;
+
     public float velocidadTexto = 0.03f;
 
     [Header("Audio")]
     public AudioSource audioSource;
+
     public AudioClip audioDatoCurioso;
 
+    private Collider miCollider;
+
     private bool enInteraccion = false;
+
     private bool moviendoCamara = false;
+
     private Coroutine typingCoroutine;
 
     void Start()
     {
-        originalCamPos = mainCamera.transform.position;
-        originalCamRot = mainCamera.transform.rotation;
+        Debug.Log("Start ejecutado");
 
-        panelUI.SetActive(false);
+        miCollider = GetComponent<Collider>();
+
         contenedorTexto.SetActive(false);
+
         botonCerrar.gameObject.SetActive(false);
 
-        botonSaberMas.onClick.AddListener(ActivarTexto);
-        botonDatoCurioso.onClick.AddListener(ReproducirAudio);
-        botonCerrar.onClick.AddListener(CerrarPanel);
+        imagenInicial.SetActive(true);
+
+        textoUI.text = "";
+
+        Debug.Log("UI inicializada");
+
+        // BOTONES
+        botonSaberMas.onClick.AddListener(
+            ActivarTexto
+        );
+
+        botonDatoCurioso.onClick.AddListener(
+            ReproducirAudio
+        );
+
+        botonCerrar.onClick.AddListener(
+            CerrarPanel
+        );
+
+        Debug.Log("Botones conectados");
     }
 
-    // 🔥 ESTE ES EL MÉTODO QUE LLAMA EL RAYCAST
     public void Interactuar()
     {
-        if (enInteraccion) return;
+        Debug.Log("INTERACTUAR");
+
+        if (enInteraccion)
+        {
+            Debug.Log("Ya estaba interactuando");
+            return;
+        }
 
         enInteraccion = true;
+
+        //desactivar collider
+        if (miCollider != null)
+        {
+            miCollider.enabled = false;
+
+            Debug.Log("Collider desactivado");
+        }
+
+        // guardar posición ACTUAL
+        originalCamPos =
+            mainCamera.transform.position;
+
+        originalCamRot =
+            mainCamera.transform.rotation;
+
+        Debug.Log("Posición actual guardada");
+
         moviendoCamara = true;
 
-        // Bloquear jugador
+        Debug.Log("Cámara moviéndose");
+
+        // bloquear jugador
         if (playerMovement != null)
+        {
             playerMovement.enabled = false;
 
-        // Activar cursor
-        Cursor.lockState = CursorLockMode.None;
+            Debug.Log("Movimiento bloqueado");
+        }
+        else
+        {
+            Debug.LogError(
+                "playerMovement NO asignado"
+            );
+        }
+
+        Cursor.lockState =
+            CursorLockMode.None;
+
         Cursor.visible = true;
 
-        panelUI.SetActive(true);
         botonCerrar.gameObject.SetActive(true);
 
+        // LA IMAGEN SIGUE VISIBLE
         imagenInicial.SetActive(true);
+
         contenedorTexto.SetActive(false);
+
         textoUI.text = "";
+
+        Debug.Log("Interacción iniciada");
     }
 
     void Update()
     {
         if (moviendoCamara)
         {
-            mainCamera.transform.position = Vector3.Lerp(
-                mainCamera.transform.position,
-                cameraFocusPoint.position,
-                Time.deltaTime * cameraSpeed
-            );
+            mainCamera.transform.position =
+                Vector3.Lerp(
+                    mainCamera.transform.position,
+                    cameraFocusPoint.position,
+                    Time.deltaTime * cameraSpeed
+                );
 
-            mainCamera.transform.rotation = Quaternion.Lerp(
-                mainCamera.transform.rotation,
-                cameraFocusPoint.rotation,
-                Time.deltaTime * cameraSpeed
-            );
+            mainCamera.transform.rotation =
+                Quaternion.Lerp(
+                    mainCamera.transform.rotation,
+                    cameraFocusPoint.rotation,
+                    Time.deltaTime * cameraSpeed
+                );
 
-            if (Vector3.Distance(mainCamera.transform.position, cameraFocusPoint.position) < 0.05f)
+            if (
+                Vector3.Distance(
+                    mainCamera.transform.position,
+                    cameraFocusPoint.position
+                ) < 0.05f
+            )
             {
                 moviendoCamara = false;
+
+                Debug.Log(
+                    "Cámara llegó al panel"
+                );
             }
         }
     }
 
-    void ActivarTexto()
+    public void ActivarTexto()
     {
+        Debug.Log("BOTÓN SABER MÁS");
+
         imagenInicial.SetActive(false);
+
         contenedorTexto.SetActive(true);
 
         if (typingCoroutine != null)
+        {
             StopCoroutine(typingCoroutine);
+        }
 
-        typingCoroutine = StartCoroutine(EfectoMaquinaEscribir());
+        typingCoroutine =
+            StartCoroutine(
+                EfectoMaquinaEscribir()
+            );
+
+        Debug.Log("Texto activado");
     }
 
     IEnumerator EfectoMaquinaEscribir()
     {
+        Debug.Log("Escribiendo texto");
+
         textoUI.text = "";
 
         foreach (char letra in textoCompleto)
         {
             textoUI.text += letra;
-            yield return new WaitForSeconds(velocidadTexto);
+
+            yield return new WaitForSeconds(
+                velocidadTexto
+            );
         }
+
+        Debug.Log("Texto terminado");
     }
 
-    void ReproducirAudio()
+    public void ReproducirAudio()
     {
-        if (audioSource && audioDatoCurioso)
+        Debug.Log("BOTÓN DATO CURIOSO");
+
+        if (
+            audioSource != null &&
+            audioDatoCurioso != null
+        )
         {
             audioSource.Stop();
-            audioSource.clip = audioDatoCurioso;
+
+            audioSource.clip =
+                audioDatoCurioso;
+
             audioSource.Play();
+
+            Debug.Log(
+                "Audio reproduciéndose"
+            );
+        }
+        else
+        {
+            Debug.LogError(
+                "Falta AudioSource o AudioClip"
+            );
         }
     }
 
-    void CerrarPanel()
+    public void CerrarPanel()
     {
+        Debug.Log("CERRANDO PANEL");
+
         enInteraccion = false;
+
         moviendoCamara = false;
 
-        mainCamera.transform.position = originalCamPos;
-        mainCamera.transform.rotation = originalCamRot;
+        mainCamera.transform.position =
+            originalCamPos;
+
+        mainCamera.transform.rotation =
+            originalCamRot;
+
+        Debug.Log("Cámara restaurada");
 
         if (playerMovement != null)
+        {
             playerMovement.enabled = true;
 
-        // 🔥 VOLVER A MODO FPS
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+            Debug.Log(
+                "Movimiento restaurado"
+            );
+        }
 
-        panelUI.SetActive(false);
+
         contenedorTexto.SetActive(false);
+
         imagenInicial.SetActive(true);
 
-        if (audioSource)
+        textoUI.text = "";
+
+        botonCerrar.gameObject.SetActive(false);
+
+        Debug.Log("UI restaurada");
+
+        if (audioSource != null)
+        {
             audioSource.Stop();
 
-        textoUI.text = "";
+            Debug.Log("Audio detenido");
+        }
+
+        //volver a activar collider
+        if (miCollider != null)
+        {
+            miCollider.enabled = true;
+
+            Debug.Log("Collider activado otra vez");
+        }
     }
 }
