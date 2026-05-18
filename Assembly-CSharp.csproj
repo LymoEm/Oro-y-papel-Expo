@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scrips\InteraccionJugador.cs" />
     <Compile Include="Assets\Scrips\TransicionPantalla.cs" />
     <Compile Include="Assets\Scrips\VideoACambioEscena.cs" />
+    <Compile Include="Assets\Scrips\AudioBienvenida.cs" />
     <Compile Include="Assets\Scrips\FlechaLuminosa.cs" />
     <Compile Include="Assets\Scrips\MovimientoJugador.cs" />
     <Compile Include="Assets\Scrips\EfectoBrillo.cs" />
