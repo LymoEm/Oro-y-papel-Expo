@@ -439,6 +439,7 @@
 "Assets/Scrips/ObjetoInteractivo.cs"
 "Assets/Scrips/PanelInteractivo.cs"
 "Assets/Scrips/PosicionarJugador.cs"
+"Assets/Scrips/TransicionPantalla.cs"
 "Assets/Scrips/VideoACambioEscena.cs"
 "Assets/Scrips/infoPaneles.cs"
 -langversion:9.0
