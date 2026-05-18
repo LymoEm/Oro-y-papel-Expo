@@ -5,20 +5,7 @@ using UnityEngine.UI;
 public class TransicionPantalla : MonoBehaviour
 {
     public Image fadeImage;
-
-    [Header("Duración")]
     public float duracionFade = 1.5f;
-
-    [Header("Fade automático al iniciar")]
-    public bool hacerFadeInAlIniciar = false;
-
-    void Start()
-    {
-        if (hacerFadeInAlIniciar)
-        {
-            StartCoroutine(FadeIn());
-        }
-    }
 
     public IEnumerator FadeOut()
     {
