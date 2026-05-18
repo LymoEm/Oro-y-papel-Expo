@@ -63,9 +63,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scrips\infoPaneles.cs" />
     <Compile Include="Assets\Scrips\InteraccionJugador.cs" />
-    <Compile Include="Assets\Scrips\InteraccionLibro.cs" />
     <Compile Include="Assets\Scrips\ZonaProhibida.cs" />
     <Compile Include="Assets\Scrips\TransicionPantalla.cs" />
+    <Compile Include="Assets\Scrips\LibroInteractivo.cs" />
     <Compile Include="Assets\Scrips\VideoACambioEscena.cs" />
     <Compile Include="Assets\Scrips\AudioBienvenida.cs" />
     <Compile Include="Assets\Scrips\FlechaLuminosa.cs" />
