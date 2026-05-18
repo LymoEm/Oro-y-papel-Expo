@@ -63,12 +63,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scrips\infoPaneles.cs" />
     <Compile Include="Assets\Scrips\InteraccionJugador.cs" />
+    <Compile Include="Assets\Scrips\ZonaProhibida.cs" />
     <Compile Include="Assets\Scrips\TransicionPantalla.cs" />
     <Compile Include="Assets\Scrips\VideoACambioEscena.cs" />
     <Compile Include="Assets\Scrips\AudioBienvenida.cs" />
     <Compile Include="Assets\Scrips\FlechaLuminosa.cs" />
     <Compile Include="Assets\Scrips\MovimientoJugador.cs" />
     <Compile Include="Assets\Scrips\EfectoBrillo.cs" />
+    <Compile Include="Assets\Scrips\GuardarPosicion.cs" />
     <Compile Include="Assets\Scrips\CambiarEscena.cs" />
     <Compile Include="Assets\Scrips\PosicionarJugador.cs" />
     <Compile Include="Assets\Scrips\ObjetoInteractivo.cs" />

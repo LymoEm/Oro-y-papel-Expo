@@ -435,6 +435,7 @@
 "Assets/Scrips/CambiarEscena.cs"
 "Assets/Scrips/EfectoBrillo.cs"
 "Assets/Scrips/FlechaLuminosa.cs"
+"Assets/Scrips/GuardarPosicion.cs"
 "Assets/Scrips/InteraccionJugador.cs"
 "Assets/Scrips/MovimientoJugador.cs"
 "Assets/Scrips/ObjetoInteractivo.cs"
@@ -442,6 +443,7 @@
 "Assets/Scrips/PosicionarJugador.cs"
 "Assets/Scrips/TransicionPantalla.cs"
 "Assets/Scrips/VideoACambioEscena.cs"
+"Assets/Scrips/ZonaProhibida.cs"
 "Assets/Scrips/infoPaneles.cs"
 -langversion:9.0
 /deterministic
