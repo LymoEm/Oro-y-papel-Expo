@@ -437,6 +437,7 @@
 "Assets/Scrips/FlechaLuminosa.cs"
 "Assets/Scrips/GuardarPosicion.cs"
 "Assets/Scrips/InteraccionJugador.cs"
+"Assets/Scrips/InteraccionLibro.cs"
 "Assets/Scrips/MovimientoJugador.cs"
 "Assets/Scrips/ObjetoInteractivo.cs"
 "Assets/Scrips/PanelInteractivo.cs"
